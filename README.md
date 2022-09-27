@@ -1,10 +1,11 @@
 # landing-page
 
-Landing page written with CSS and HTML
+Landing page written with CSS and HTML to practice use of flexbox
 
-Status : Ongoing
+Status : Complete
 
-Optimized for PC/Laptop view
+-Static webpage
+-Optimized for PC/Laptop view
 
 
 
