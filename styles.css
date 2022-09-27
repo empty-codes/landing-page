@@ -3,11 +3,14 @@ html, body {
     padding: 0;
     height: 100%;
     box-sizing: border-box;
+    margin: auto;
 }
 
 body {
     display:flex;
-    flex-direction: column
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
 }
 
 main {
@@ -45,9 +48,9 @@ header ul {
     height: 400px;
 }
 
-.box3, .box4, .box5 {
+.box3, .box4 {
     justify-content: center;
-    padding: 40px;
+    padding: 70px;
 }
 
 .stats, .quote {
@@ -57,17 +60,145 @@ header ul {
 .cta, .copyright {
     padding: 20px;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .links li {
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 100px;
+    width: 110px;
+    font-weight: bold;
 }
 
 .hlogo {
     align-items: flex-start;
     justify-content: flex-start;
     width: 935px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.images {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    color: #1f2937;
+}
+
+.img2 {
+    border-style: solid;
+    border-width: 1.4mm;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 0;
+    border-color: #3882f6;
+    
+}
+
+header, .container2, .copyright {
+    background-color: #1f2937;
+}
+
+.box4 {
+    background-color: #e5e7eb;
+}
+
+.cta, .button2, .button {
+    background-color: #3882f6;
+}
+
+.intro, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.quote {
+    padding: 80px;
+    font-size: 36px;
+    font-weight: light-italic;
+    color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    background: #3882f6;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 30%
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .button2 {
+    background: #3882f6;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1mm;
+    font-size: 18px;
+    padding: 7px;
+    width: 15%
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+.line1 {
+    color: #f9faf8;
+    text-align: left;
+    font-weight: bold;
+    display: inline;
+}
+
+.box5 {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+
+.cta {
+    width: 950px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
 }
